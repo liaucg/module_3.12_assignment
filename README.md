@@ -199,3 +199,7 @@ jobs:
 
 ## Step 8: Push changes to GitHub to start the workflow
 Commit changes locally and push it to GitHub. Navigate the repo on GitHub, click on the **Actions** tab to see the workflows.
+![image](https://github.com/liaucg/module_3.12_assignment/assets/22501900/4c8dbd28-cc20-433e-a1c3-a86cf43aa3b9)
+
+![image](https://github.com/liaucg/module_3.12_assignment/assets/22501900/69c8bb93-a911-4ae7-80b9-9e8e9ce1e88d)
+
