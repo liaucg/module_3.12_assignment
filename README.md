@@ -13,6 +13,7 @@ $ git clone git@github.com:liaucg/module_3.12_assignment.git
 ```
 
 ## Step 3: Create index.js file
+![image](https://github.com/liaucg/module_3.12_assignment/assets/22501900/b69f8910-5fd1-43d6-80b0-b1bb01610604)
 [index.js](index.js)
 ```js
 module.exports.handler = async (event) => {
