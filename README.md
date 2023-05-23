@@ -196,3 +196,6 @@ jobs:
 
 ## Step 7: Add AWS_ACCESS_KEY_ID and ASW_SECRET_ACCESS_KEY to GitHub Secrets
 ![image](https://github.com/liaucg/module_3.12_assignment/assets/22501900/9df5701c-d5a4-4cd6-bdd0-df59091daeeb)
+
+## Step 8: Push changes to GitHub to start the workflow
+Commit changes locally and push it to GitHub. Navigate the repo on GitHub, click on the **Actions** tab to see the workflows.
