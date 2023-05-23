@@ -8,3 +8,24 @@ The objective of this assignment is to set up a continuous integration and conti
 ![image](https://github.com/liaucg/module_3.12_assignment/assets/22501900/df3b539c-e91e-469b-a057-00b7e64028df)
 
 ## Step 2: Clone the code repository into local machine
+```
+$ git clone git@github.com:liaucg/module_3.12_assignment.git
+```
+
+## Step 3: Create index.js file
+[index.js](index.js)
+```js
+module.exports.handler = async (event) => {
+    return {
+      statusCode: 200,
+      body: JSON.stringify(
+        {
+          message: "Go Serverless v3.0! Your function executed successfully!",
+          input: event,
+        },
+        null,
+        2
+      ),
+    };
+  };
+```
