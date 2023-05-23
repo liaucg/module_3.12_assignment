@@ -14,6 +14,7 @@ $ git clone git@github.com:liaucg/module_3.12_assignment.git
 
 ## Step 3: Create index.js file
 ![image](https://github.com/liaucg/module_3.12_assignment/assets/22501900/b69f8910-5fd1-43d6-80b0-b1bb01610604)
+
 [index.js](index.js)
 ```js
 module.exports.handler = async (event) => {
@@ -29,4 +30,27 @@ module.exports.handler = async (event) => {
       ),
     };
   };
+```
+
+## Step 4: Create serverless.yml
+[serverless.yml](serverless.yml)
+```yml
+service: liau_module_3-12-assignment
+frameworkVersion: '3'
+
+provider:
+  name: aws
+  runtime: nodejs18.x
+  region: ap-southeast-1
+
+functions:
+  api:
+    handler: index.handler
+    events:
+      - httpApi:
+          path: /
+          method: get
+
+plugins:
+  - serverless-offline
 ```
