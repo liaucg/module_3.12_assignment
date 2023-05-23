@@ -33,6 +33,8 @@ module.exports.handler = async (event) => {
 ```
 
 ## Step 4: Create serverless.yml
+![image](https://github.com/liaucg/module_3.12_assignment/assets/22501900/3b2e966d-d56b-42f3-aefa-5e1c34dce406)
+
 [serverless.yml](serverless.yml)
 ```yml
 service: liau_module_3-12-assignment
