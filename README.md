@@ -195,3 +195,4 @@ jobs:
 **env**: Set the environment variables.
 
 ## Step 7: Add AWS_ACCESS_KEY_ID and ASW_SECRET_ACCESS_KEY to GitHub Secrets
+![image](https://github.com/liaucg/module_3.12_assignment/assets/22501900/9df5701c-d5a4-4cd6-bdd0-df59091daeeb)
